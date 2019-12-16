@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // DB confignodemon
-mongoose.connect("mongodb+srv://Gaurii28:Guddu079@cluster0-mzk0p.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://Gaurii28:abcd@cluster0-mzk0p.mongodb.net/test?retryWrites=true&w=majority", {
 
 	useNewUrlParser: true,
 	useUnifiedTopology: true
